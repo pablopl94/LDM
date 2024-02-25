@@ -1,0 +1,187 @@
+/* Body CSS*/
+
+.body1{
+    background-image: url("img/fondo.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-attachment: fixed;
+    color: white;
+    text-align: center; 
+    font-family: "BreakingBad";
+    font-size: 36px;
+}
+
+.body2{
+    background-image: url("img/fondo.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-attachment: fixed;
+    color: white;
+    font-family: Helvetica;
+    font-size: 13px;
+    
+}
+
+.body3{
+   /* He cambiado el color que se pedia en el pdf #0c3e11 por este, me parecia mas estetico*/ 
+    background-color:#627124;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-attachment: fixed;
+    text-align: center;
+    font-family: Helvetica;
+
+}
+
+/* Textos CSS*/ 
+/* He respetado las fuentes de cada pagina que se pedian en el pdf, solo he modificado 
+el tamaño de las fuentes por pura estetica*/ 
+
+@font-face {
+    font-family: 'BreakingBad' ;
+    src: url(tipografia/Breaking\ Bad.ttf);
+}
+
+#texto {
+    font-size: 40;
+    text-align: center;
+}
+
+
+#texto2 {
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+}
+
+#textotabla{
+    color: #2B2D23;
+    font-size: 50px;
+    font-weight: 750;
+}
+
+#textotabla2{
+    color: #2B2D23;
+    font-size: 10px;
+    font-weight: 600;
+}
+
+
+/* Imagenes CSS*/
+
+.imglogo{
+    width: 200px;
+    height: 200px;
+}
+
+.imgportada {
+   width : 700px;
+   height : 300px;
+   border: 10px outset brown;
+   border-radius: 22px;
+}
+
+/* Formulario CSS*/
+
+.input,
+textarea {
+    border: 3px solid #8bbfe9;
+    background-color:  #ffffffac;
+    border-radius: 8px;
+    width: 30%;
+    padding: 5px;
+}
+
+
+.numero {width: 30px;}
+
+.pisoypostal {width: 55px;}
+
+.dni { width: 90px;}
+
+.textarea { width: 470px;}
+
+.correoydireccion {width: 190px;}
+
+.centrado{text-align: center;}
+
+.botones{
+    text-align: center;
+    background-color:  #ffffffac;
+    font-size: 16;
+        
+}
+
+ 
+.formregistro{
+width: 500;
+height: 780px;
+margin: auto;
+background: transparent;
+border-radius: 10px;
+padding:30px 40px ;
+border: 2px solid rgba(255, 255, 255, 0.771);
+backdrop-filter: blur(30px);
+}
+
+/* Tabla Periodica CSS*/
+
+table{
+    
+width: 1150px;
+height: 200px;
+margin: auto;
+border: 3px solid #2B2D23;
+table-layout: fixed;
+background-color: #2B2D23;;
+}
+
+
+.tabla2 {
+width: 850px;
+height: 200px;
+table-layout: auto;
+}
+
+
+td,tr{
+padding: 7px;
+width: 60px;
+height: 60px;
+border: 3px solid#2B2D23;
+
+
+}
+
+
+.celda1{background-color: #B6DB22;}
+
+.celda2{background-color: #828D54}
+
+.celda3{
+    background-image: url("img/hankschrader.png") ;
+    background-size: cover;
+    background-position-x: center;
+    background-repeat: no-repeat;
+}
+
+.celda4{background-color: #EFF6CC;}
+
+.celda5{background-color: #89A418;}
+
+.celda6{background-color: #62702B;}
+
+.celda7{background-color: #C5E440;}
+
+.celda8{background-color: #BBC49B;}
+
+.celda9{background-color: #AB8FCC;}
+
+.celda10{background-color: #D4E87C;}
+
+.celda11{background-color: #C3C81A;}
+
+

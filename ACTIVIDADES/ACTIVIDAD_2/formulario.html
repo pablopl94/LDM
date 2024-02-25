@@ -1,0 +1,117 @@
+<html lang="en">
+<head>
+    <link rel="icon" type="png" href="img/icon.png"/>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Breaking Bad -QueVeo</title>
+</head>
+
+
+<body class=body2 >
+
+    <header id="texto2"> 
+
+     <p id="texto">Breaking Bad - Que comienze el juego</p> 
+     
+    </header>
+    
+
+<form action="mailto:raul.rodriguez@proeducaglobal.com" method="post" name="formulario" class="formregistro" 
+enctype="multipart/form-data" autocomplete="off">
+
+    <fieldset>
+            <legend id="texto2" >DATOS PERSONALES</legend>
+                
+            <p>
+               NOMBRE: 
+               <input class="input nombre" type="text" name="name" placeholder="Ingrese su nombre" required /> <br>
+            </p>
+            
+            <p>
+                APELLIDOS:
+                <input class="input correoydireccion" type="text" name="name"  placeholder="Ingrese su 1º y 2º apellido" required /> <br>
+            </p>
+
+            <p>
+              <span></span> HOMBRE<input class="" type="radio" name="sex" />MUJER <span></span><input type="radio" name="sex" />
+            </p>
+        
+
+            <p>
+                <LABEL>FECHA NACIMIENTO: </LABEL>
+                <input class="input fecha" date type="date" name="fecha-nacimiento"  required /> 
+
+                <LABEL>DNI: </LABEL>
+                <input class="input dni" type="text" name="DNI"   placeholder="XXXXXXXXA"> 
+                
+            </p>
+
+            <p>
+                <LABEL>CORREO ELECTRONICO: </LABEL>
+                <input class="input correoydireccion" type="text" name="correo"  placeholder="Ingrese su correo electronico"> <br>
+            </p>
+                
+            <p>
+               DIRECCIÓN:
+               <input class="input correoydireccion" type="text" name="direccion"  placeholder="Calle, Avenida,Paseo, Plaza...">        
+                Nº:
+               <input class="input numero" type="text" name="numero" placeholder="">
+               PISO:
+               <input class="input pisoypostal" type="text" name="apellidos"  placeholder="">
+            </p>
+           
+            <p>
+                CIUDAD: 
+                <input class="input ciudad"type="text" name="ciudad" id="" placeholder=""> 
+                CODIGO POSTAL:
+                <input class="input pisoypostal" type="text" name="codigopostal"  placeholder="XXXX">
+            </p>
+                   
+    </fieldset> <br>
+
+            
+    <fieldset >
+                    <legend id="texto2">PERSONAJE FAVORITO</legend>
+                  
+            <p>
+                  ELIJE TU PERSONAJE FAVORITO <br>
+                  <input class="input personaje" list="personaje">
+                  <datalist id="personaje">
+                  <option value="Jessie Pinkman"></option>
+                  <option value="Walter White"></option>
+                  <option value="Saul Goodman"></option>
+                  <option value="Gustavo Fring"></option>
+                  <option value="Pollos Hermanos"></option>
+                  <option value="Otros personajes"></option>
+                  </datalist>
+            </p>  
+
+            <p>
+
+                ¿PORQUE ES TU PERSONAJE FAVORITO?<br>
+                <textarea class="input textarea" name="opiniones alumnos"  cols="30" rows="10" minlength="5" maxlength="240" 
+                placeholder="Danos tus razones de porque es tu personaje favorito..."></textarea>
+            
+            </p>
+
+            <p class="centrado">
+                MANDANOS UN DIBUJO DE TU PERSONAJE PREFERIDO <br><br>
+                <input type="file" name="Archivos" value="Adjuntar Archivos" accept=".pdf,.jpg, .png" multiple>
+            </p>
+
+    </fieldset >
+
+        <p class="centrado">
+        <input class="input botones" type="submit" value="Enviar">
+       
+        <input class="input botones"  type="reset" value="Restablecer">
+  
+        </p>
+
+</form>
+
+
+
+</body>
+</html>
